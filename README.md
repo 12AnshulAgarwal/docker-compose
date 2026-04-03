@@ -27,6 +27,8 @@ This project demonstrates core Docker concepts such as containerization, environ
 ---
 
 ## 📂 Project Structure
+
+```text
 backend-docker/
 ├── src/
 │   └── index.js          # Express application source code
