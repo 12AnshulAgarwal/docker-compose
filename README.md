@@ -38,7 +38,7 @@ backend-docker/
 ├── .dockerignore         # Files ignored during Docker build
 ├── .env.example          # Sample environment variables
 └── README.md             # Project documentation
----
+```
 
 ## ⚙️ Environment Variables
 
