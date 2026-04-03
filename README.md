@@ -46,3 +46,44 @@ Create a `.env` file in the project root:
 
 ```env
 PORT=3000
+```
+## 🐳 Running the Application (Using Docker Compose)
+1️⃣ Build and start the container
+
+```
+docker compose up -d
+```
+2️⃣ Verify running containers
+
+```
+docker compose ps
+```
+## 🔍 API Endpoints
+✅ Health Check
+
+```
+GET /health
+```
+Response:
+OK
+
+✅ Sample API Response
+```
+GET /api/message
+```
+Response:
+{
+  "message": "Hello from Dockerized Backend 🚀"
+}
+
+##🛑 Stopping the Application
+```
+docker compose down
+```
+## What I Learned from This Project
+- Writing Dockerfiles for Node.js applications
+- Containerizing backend services
+- Using Docker Compose for orchestration
+- Managing environment variables in containers
+- Running containerized applications on a cloud VM (EC2)
+- Debugging common Docker and Linux issues
